@@ -4,7 +4,7 @@
       "api/login.php": { "runtime": "vercel-php@0.6.0" },
       "api/logout.php": { "runtime": "vercel-php@0.6.0" },
       "api/register.php": { "runtime": "vercel-php@0.6.0" },
-      "api/votes.php": { "runtime": "vercel-php@0.6.0" }
+      "api/vaotes.php": { "runtime": "vercel-php@0.6.0" }
     },
     "routes": [
       { "src": "/(.*)", "dest": "./frontend/index.htm" },
