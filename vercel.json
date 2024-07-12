@@ -1,14 +1,18 @@
 {
     "functions": {
-      "api/**/*.php": { "runtime": "vercel-php@0.6.0" }
+      "api/connection.php": { "runtime": "vercel-php@0.6.0" },
+      "api/login.php": { "runtime": "vercel-php@0.6.0" },
+      "api/logout.php": { "runtime": "vercel-php@0.6.0" },
+      "api/register.php": { "runtime": "vercel-php@0.6.0" },
+      "api/votes.php": { "runtime": "vercel-php@0.6.0" }
     },
     "routes": [
       { "src": "/(.*)", "dest": "./frontend/index.htm" },
-      { "src": "/api/connection.php", "dest": "/api/connection.php" },
-      { "src": "/api/login.php", "dest": "/api/login.php" },
-      { "src": "/api/logout.php", "dest": "/api/logout.php" },
-      { "src": "/api/register.php", "dest": "/api/register.php" },
-      { "src": "/api/votes.php", "dest": "/api/votes.php" }
+      { "src": "/api/connection", "dest": "/api/connection.php" },
+      { "src": "/api/login", "dest": "/api/login.php" },
+      { "src": "/api/logout", "dest": "/api/logout.php" },
+      { "src": "/api/register", "dest": "/api/register.php" },
+      { "src": "/api/votes", "dest": "/api/votes.php" }
     ]
   }
   
