@@ -12,7 +12,7 @@
       { "src": "/api/login", "dest": "/api/login.php" },
       { "src": "/api/logout", "dest": "/api/logout.php" },
       { "src": "/api/register", "dest": "/api/register.php" },
-      { "src": "/api/votes", "dest": "/api/votes.php" }
+      { "src": "/api/vaotes", "dest": "/api/vaotes.php" }
     ]
   }
   
